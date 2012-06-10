@@ -1,0 +1,2 @@
+N { printf("node(%s).\n",$.name); }
+E { printf("edge(%s,%s).\n",$.tail.name,$.head.name) }
